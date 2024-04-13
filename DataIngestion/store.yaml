@@ -1,0 +1,18 @@
+file_type: csv
+dataset_name: file
+file_name: Rate
+table_name: edsurv
+inbound_delimiter: ","
+outbound_delimiter: "|"
+skip_leading_rows: 1
+columns:
+    -id  
+    - Title
+    - Price
+    - User_id
+    - profileName
+    - review_helpfulness
+    - review_score
+    - review_time
+    - review_summary
+    - review_text
